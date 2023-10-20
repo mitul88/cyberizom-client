@@ -1,9 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import MainNavigation from "./component/MainNavigation/MainNavigationContainer";
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <MainNavigation />
     </div>
   );
 }
