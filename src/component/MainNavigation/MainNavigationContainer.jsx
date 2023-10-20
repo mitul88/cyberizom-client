@@ -14,7 +14,7 @@ const MainNavigation = () => {
         console.log(enter)
     }
   return (
-    <div className='py-5 lg:px-48 bg-black text-white flex flex-col gap-5'>
+    <div className='py-5 lg:px-56 bg-black text-white flex flex-col gap-5'>
         <AuthNavigation />
         <PageNavigation handleMouseEnter={handleMouseEnter} handleMouseLeave={handleMouseLeave} />
     </div>
