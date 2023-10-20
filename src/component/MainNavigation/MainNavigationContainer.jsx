@@ -1,10 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import AuthNavigation from './AuthNavigation'
+import PageNavigation from './PageNavigation'
 
 const MainNavigation = () => {
+  const [enter, setEnter] = useState(false)
+
+    const handleMouseEnter = () => {
+        setEnter(false)
+        console.log(enter)
+    }
+    const handleMouseLeave = () => {
+        setEnter(true)
+        console.log(enter)
+    }
   return (
-    <div className='py-5 bg-black text-white'>
+    <div className='py-5 lg:px-48 bg-black text-white flex flex-col gap-5'>
         <AuthNavigation />
+        <PageNavigation handleMouseEnter={handleMouseEnter} handleMouseLeave={handleMouseLeave} />
     </div>
   )
 }
