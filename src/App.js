@@ -1,13 +1,8 @@
-import MainNavigation from "./component/MainNavigation/MainNavigationContainer";
-import Hero from "./component/hero/Hero";
+import { RouterProvider } from "react-router-dom";
+import { routes } from "./route/routes";
 
 function App() {
-  return (
-    <div>
-      <MainNavigation />
-      <Hero />
-    </div>
-  );
+  return <RouterProvider router={routes}/>;
 }
 
 export default App;
