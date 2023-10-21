@@ -6,9 +6,9 @@ const RootPage = () => {
   return (
     <div className='min-h-screen'>
         <MainNavigation />
-        <main>
+        <>
             <Outlet />
-        </main>
+        </>
     </div>
   )
 }

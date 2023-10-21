@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Hero = () => {
+const HeroSection = () => {
   return (
     <div className='bg-black text-white w-full flex justify-start lg:px-56 pt-10 pb-20'>
         <div className="flex flex-col gap-10">
@@ -21,4 +21,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default HeroSection
