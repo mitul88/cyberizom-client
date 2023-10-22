@@ -7,23 +7,23 @@ const ContactForm = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 gap-3'>
                 <div className="flex flex-col gap-3">
                     <label className='font-bold' htmlFor="">First Name: *</label>
-                    <input type="text" className="px-5 py-2" />
+                    <input type="text" className="px-5 py-2 text-black" />
                 </div>
                 <div className="flex flex-col gap-3">
                     <label className='font-bold' htmlFor="">Last Name: *</label>
-                    <input type="text" className="px-5 py-2" />
+                    <input type="text" className="px-5 py-2 text-black" />
                 </div>
                 <div className="flex flex-col gap-3">
                     <label className='font-bold' htmlFor="">Business Email: *</label>
-                    <input type="text" className="px-5 py-2" />
+                    <input type="text" className="px-5 py-2 text-black" />
                 </div>
                 <div className="flex flex-col gap-3">
                     <label className='font-bold' htmlFor="">Company: *</label>
-                    <input type="text" className="px-5 py-2" />
+                    <input type="text" className="px-5 py-2 text-black" />
                 </div>
                 <div className="flex flex-col gap-3">
                     <label className='font-bold' htmlFor="">Job Title: *</label>
-                    <input type="text" className="px-5 py-2" />
+                    <input type="text" className="px-5 py-2 text-black" />
                 </div>
                 <div className="flex flex-col gap-3">
                     <label className='font-bold' htmlFor="">What is your security objective? *</label>
