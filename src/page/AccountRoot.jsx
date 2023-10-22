@@ -1,8 +1,11 @@
 import React from 'react'
+import Sidenav from '../component/accountNavigation/Sidenav'
 
 const AccountRoot = () => {
   return (
-    <div>AccountRoot</div>
+    <div className='min-h-screen'>
+        <Sidenav />
+    </div>
   )
 }
 
