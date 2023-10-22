@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import RootPage from "../page/Root";
 import HomePage from "../page/Home";
 import AccountRoot from "../page/AccountRoot";
+import Signin from "../page/account/Signin";
 
 
 export const routes = createBrowserRouter([
@@ -20,7 +21,13 @@ export const routes = createBrowserRouter([
     {
         path: "/account",
         element: <AccountRoot />,
-        errorElement: <p>Errir</p>,
-        id:"account-root"
+        errorElement: <p>Error</p>,
+        id:"account-root",
+        children: [
+            {
+                path: 'signin',
+                element: <Signin />
+            }
+        ]
     }
 ])

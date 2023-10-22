@@ -1,14 +1,18 @@
 import React from 'react'
 import Sidenav from '../component/accountNavigation/Sidenav'
 import Topbar from '../component/accountNavigation/Topbar'
+import { Outlet } from 'react-router-dom'
 
 const AccountRoot = () => {
   return (
     <div className='min-h-screen flex'>
         <Sidenav />
-        <main className='w-full min-h-screen'>
+        <div className='w-full min-h-screen'>
             <Topbar />
-        </main>
+            <div className='min-h-full bg-gray-100'>
+                <Outlet />
+            </div>
+        </div>
     </div>
   )
 }
