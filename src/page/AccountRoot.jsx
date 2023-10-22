@@ -5,11 +5,11 @@ import { Outlet } from 'react-router-dom'
 
 const AccountRoot = () => {
   return (
-    <div className='min-h-screen flex'>
+    <div className='flex bg-gray-100'>
         <Sidenav />
-        <div className='w-full min-h-screen'>
+        <div className='w-full min-h-screen relative'>
             <Topbar />
-            <div className='min-h-full bg-gray-100'>
+            <div>
                 <Outlet />
             </div>
         </div>
