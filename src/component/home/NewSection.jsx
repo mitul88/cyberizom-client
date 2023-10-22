@@ -11,8 +11,7 @@ const NewSection = () => {
         {serviceItem.map(service => (
           <NewServiceItem key={service.id} service={service} />
         ))}
-      </div>
-      
+      </div>    
     </section>
   )
 }

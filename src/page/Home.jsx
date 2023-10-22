@@ -1,3 +1,4 @@
+import ContactSection from "../component/home/ContactSection"
 import HeroSection from "../component/home/HeroSection"
 import NewSection from "../component/home/NewSection"
 
@@ -6,6 +7,7 @@ const HomePage = () => {
     <>
      <HeroSection />
      <NewSection />
+     <ContactSection />
     </>
   )
 }
