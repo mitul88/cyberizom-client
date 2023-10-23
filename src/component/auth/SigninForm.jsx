@@ -17,7 +17,7 @@ const SigninForm = () => {
             </div>
             <div className="mt-5 flex flex-col gap-3">
                 <button type='submit' className='w-full bg-red-400 text-white px-5 py-2 font-bold rounded'>Sign in</button>
-                <Link className='text-blue-600 font-semibold mx-auto'>Create a Cyberizom account</Link>
+                <Link to="/account/signup" className='text-blue-600 font-semibold mx-auto'>Create a Cyberizom account</Link>
             </div>
         </form>
     </div>

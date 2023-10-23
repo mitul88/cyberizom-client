@@ -3,6 +3,7 @@ import RootPage from "../page/Root";
 import HomePage from "../page/Home";
 import AccountRoot from "../page/AccountRoot";
 import Signin from "../page/account/Signin";
+import SignupTypePage from "../page/account/SignupType";
 
 
 export const routes = createBrowserRouter([
@@ -27,6 +28,10 @@ export const routes = createBrowserRouter([
             {
                 path: 'signin',
                 element: <Signin />
+            },
+            {
+                path:'signup',
+                element: <SignupTypePage />
             }
         ]
     }
