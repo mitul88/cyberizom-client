@@ -4,6 +4,7 @@ import HomePage from "../page/Home";
 import AccountRoot from "../page/AccountRoot";
 import Signin from "../page/account/Signin";
 import SignupTypePage from "../page/account/SignupType";
+import Leaderboard from "../page/account/Leaderboard";
 
 
 export const routes = createBrowserRouter([
@@ -32,6 +33,10 @@ export const routes = createBrowserRouter([
             {
                 path:'signup',
                 element: <SignupTypePage />
+            },
+            {
+                path:'leaderboard',
+                element: <Leaderboard />
             }
         ]
     }
